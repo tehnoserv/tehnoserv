@@ -9,13 +9,18 @@
 	<!-- TITLE -->
 	<title>Алтайтехносервис-экспертиза промышленной безопасности</title>
 	 <meta name="description" content="Экспертиза промышленной безопасности опасных производственных объектов. Проектирование. Неразрушающий контроль."/>
-  <link rel="canonical" href="https://tehnoserv.wixsite.com/tehnoserv22"/>
+<!--  <link rel="canonical" href="https://tehnoserv.wixsite.com/tehnoserv22"/>-->
   <meta property="og:title" content="Алтайтехносервис-экспертиза промышленной безопасности "/>
   <meta property="og:description" content="Экспертиза промышленной безопасности опасных производственных объектов. Проектирование. Неразрушающий контроль."/>
   <meta property="og:url" content="https://tehnoserv22"/>
   <meta property="og:site_name" content="tehnoserv22"/>
   <meta property="og:type" content="website"/>
-<!--  <script type="application/ld+json">{"@context":"https://schema.org/","@type":"LocalBusiness","name":"ООО Алтайтехносервис","url":"https://tehnoserv22","image":"https://static.wixstatic.com/media/8087ed_d513a1f1617f498c8175f22f28e34bb2~mv2.jpg","address":{"@type":"PostalAddress","addressCountry":"RU","addressLocality":"Барнаул","addressRegion":"ALT","postalCode":"656049","streetAddress":"ул. Пролетарская, 131, офис 514-517"},"telephone":"++7 962 804 48 79"}</script>-->
+  <script type="application/ld+json">
+	  {"@context":"https://schema.org/","@type":"LocalBusiness","name":"ООО Алтайтехносервис",
+		  "url":"https://tehnoserv22","image":"img/tehnoserv-logo.jpg",
+		  "address":{"@type":"PostalAddress","addressCountry":"RU","addressLocality":"Барнаул",
+			  "addressRegion":"ALT","postalCode":"656049","streetAddress":"ул. Пролетарская, 131, офис 514-517"},"telephone":"++7 962 804 48 79"}</script>
+
   <meta name="keywords" content="диагностика, проектирование, экспертиза, экспертиза промышленной безопасности"/>
 
 	<!-- FONTS -->
@@ -67,14 +72,26 @@
 						<i class="fa fa-bars"></i>
 					</button>
 
-					<a class="navbar-brand" href="/"><img src="img/tehnoserv-logo.jpg" alt="tehnoserv logo" height="130%"></a>
+					<a class="navbar-brand" href="/"><img src="img/tehnoserv-logo.png" alt="tehnoserv logo" height="130%"></a>
 
 				</div> <!-- .navbar-header -->
 
 				<div class="collapse navbar-collapse navbar-items" id="navbar-items">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="about.html">О КОМПАНИИ</a></li>
-						<li><a href="#">УСЛУГИ</a></li> <!-- .dropdown -->
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">УСЛУГИ</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="industrial_safety_expertise.html" class="dropdown-toggle" data-toggle="dropdown">Экспертиза промышленной безопасности</a>
+								</li>
+								<li>
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Неразрушающий контроль</a>
+								</li>
+								<li>
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Безопасность объектов капитального <br>строительства</a>
+								</li>
+							</ul> <!-- .dropdown-menu -->
+						</li> <!-- .dropdown -->
 						<li><a href="#">ДОКУМЕНТЫ</a></li>
 						<li><a href="#">ПАРТНЁРЫ</a></li>
 						<li><a href="requisites.html">РЕКВИЗИТЫ</a></li>
@@ -169,6 +186,61 @@
 			</div> <!-- .row -->
 		</div> <!-- .container -->
 	</section> <!-- .about-section -->
+
+	<section class="service-section section-block">
+		<div class="container">
+			<div class="title-block"><h2>Наши услуги</h2></div> <!-- .title-block -->
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="img-wrapper">
+						<a href="#">
+							<img class="img-responsive" src="img/services/sm_1.png" alt="service image">
+							<div class="hover-content">
+								<span class="plus-icon"></span>
+							</div> <!-- .hover-content -->
+						</a>
+					</div> <!-- .img-wrapper -->
+					<h3><a href="#">Экспертиза промышленной безопасности</a></h3>
+					<p>
+						Осуществляем деятельность по проведению экспертизы промышленной безопасности:
+						документации на консервацию, ликвидацию опасного производственного объекта;
+					</p>
+					<a class="btn-open" href="#">Подробнее</a>
+				</div> <!-- .col-md-4 -->
+				<div class="col-md-4">
+					<div class="img-wrapper">
+						<a href="#">
+							<img class="img-responsive" src="img/services/sm_3.png" alt="service image">
+							<div class="hover-content">
+								<span class="plus-icon"></span>
+							</div> <!-- .hover-content -->
+						</a>
+					</div> <!-- .img-wrapper -->
+					<h3><a href="#">Проведение неразрушающего контроля</a></h3>
+					<p>
+						Проводим контроль оборудования и материалов неразрушающими методами при монтаже, ремонте, реконструкции и техническом диагностировании объектов
+					</p>
+					<a class="btn-open" href="#">Подробнее</a>
+				</div> <!-- .col-md-4 -->
+				<div class="col-md-4">
+					<div class="img-wrapper">
+						<a href="#">
+							<img class="img-responsive" src="img/services/sm_2.png" alt="service image">
+							<div class="hover-content">
+								<span class="plus-icon"></span>
+							</div> <!-- .hover-content -->
+						</a>
+					</div> <!-- .img-wrapper -->
+					<h3><a href="#">Безопасность объектов капитального строительства</a></h3>
+					<p>
+						Выполняем виды работ, которые оказывают влияние на безопасность объектов капитального строительства, включая особо опасные и технически сложные объекты.
+					</p>
+					<a class="btn-open" href="#">Подробнее</a>
+				</div> <!-- .col-md-4 -->
+			</div> <!-- .row -->
+		</div> <!-- .container -->
+	</section>
 
 
 <footer class="site-footer">
