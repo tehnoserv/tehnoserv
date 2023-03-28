@@ -774,6 +774,7 @@ ul {
 }
 /* CORPOREX NAVBAR */
 .corporex-navbar {
+  margin-top: 5vh; position:fixed; top: 0;  width: 100%; z-index: 999;
   margin-bottom: 0;
   border-bottom: 0;
 }
@@ -980,6 +981,10 @@ ul {
 	HERO AREA
 
 **********************************************/
+.hero-area{
+  margin-top: 14vh;
+}
+
 .corporex-slider .container {
   position: relative;
   height: 100%;
@@ -1146,7 +1151,7 @@ ul {
 }
 /* PAGE TITLE BANNER */
 .page-title-banner {
-  background: url('../img/tehnoserv_breadcrumb.png') no-repeat center;
+  background: url('../img/tehnoserv_breadcrumb.jpg') no-repeat center;
   background-size: cover;
   color: #fff;
   height: 286px;

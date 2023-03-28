@@ -337,4 +337,21 @@ if($('.anim-progress').length){
 })
 }
 
+
 })(jQuery);
+
+	$(document).ready(function () {
+    var scroll_pos = 0;
+    // $("#home-01").scroll(function () {
+		window.onscroll = function (event) {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 15) {
+            $("#navbar-2").css({'background-color':'white','margin-top':'0',});
+            $("#logo").height(60);
+        } else {
+            $("#navbar-2").css({'background-color':'white', 'margin-top': '5vh'});
+            $("#logo").height(80);
+        }
+    // });
+    };
+});
