@@ -600,9 +600,13 @@ STYLE INDEXES
   transform: translate(-50%, -50%);
 }
 .corporex-preloader .spinner-wrapper .spinner {
+  /*border-radius: 50%;*/
+  border: 5px solid #E8802E;
   margin: 0;
   background: #fff;
 }
+
+
 /*********************************************
 	TYPOGRAPHY
 
