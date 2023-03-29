@@ -16,3 +16,8 @@
         margin-top: 1vh;
     }
 }
+a.disabled {
+pointer-events: none;
+cursor: default;
+color: #adadad!important;
+}
