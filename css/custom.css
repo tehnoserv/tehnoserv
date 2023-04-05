@@ -1,7 +1,9 @@
 .shadowed{
     text-shadow: 1px 1px 2px #180d49;
 }
-
+.text-dark{
+    color: #333!important;
+}
 @media (min-width: 767px) {
   .navbar-01 .navbar-brand img{
       height: 80px;

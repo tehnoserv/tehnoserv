@@ -423,7 +423,7 @@ STYLE INDEXES
 }
 .page-content {
   padding-top: 96px;
-  padding-bottom: 48px;
+  /*padding-bottom: 48px;*/
 }
 @media (max-width: 767px) {
   .page-content {
@@ -3154,7 +3154,7 @@ ul {
 }
 /* contact page */
 .contact-page .page-content {
-  padding-bottom: 96px;
+  /*padding-bottom: 96px;*/
 }
 .contact-options {
   text-align: center;
