@@ -42,8 +42,8 @@
 .mfp-content {
   position: relative;
   display: inline-block;
-  vertical-align: middle;
-  margin: 0 auto;
+  /*vertical-align: middle;*/
+  margin: 3rem auto;
   text-align: left;
   z-index: 1045; }
 

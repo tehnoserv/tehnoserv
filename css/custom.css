@@ -4,6 +4,23 @@
 .text-dark{
     color: #333!important;
 }
+.text-white{
+    color: #fff!important;
+}
+.align-left{
+    text-align: left!important;
+}
+.portfolio-list .block-title:before {
+  content: '\f04d';
+  font-family: FontAwesome;
+  width: 12px;
+  margin-left: -12px;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 8px;
+  color: #E8802E;
+}
+
 @media (min-width: 767px) {
   .navbar-01 .navbar-brand img{
       height: 80px;
