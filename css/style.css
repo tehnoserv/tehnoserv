@@ -1608,8 +1608,8 @@ ul {
   position: absolute;
   bottom: -18px;
   transition: .4s;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 .portfolio-section .portfolio-details h3 {
   font-size: 16px;
@@ -5427,6 +5427,7 @@ hr,
   .navbar-01 {
     padding-top: 30px;
     padding-bottom: 30px;
+    background: white;
   }
   .navbar-01 .navbar-brand {
     height: 62px;

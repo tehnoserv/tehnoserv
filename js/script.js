@@ -63,7 +63,15 @@ $('#testimonial-carousel-02').slick({
 
 /* MAGNIFIC POPUP */
 $('.portfolio-popup').magnificPopup({
-  type: 'image'
+  type: 'image',
+  gallery: {
+
+      enabled: true,
+      navigateByImgClick: true,
+      arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+      tPrev: 'Назад', // title for left button
+      tNext: 'Вперёд', // title for right button
+  }
   // other options
 });
 
@@ -73,7 +81,7 @@ $('.gallery-img').magnificPopup({
     type: 'image',
     removalDelay: 300,
     gallery: {
-        enabled: true
+        enabled: true,
     }
 });
 
