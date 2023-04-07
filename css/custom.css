@@ -32,7 +32,6 @@
   .navbar-01 .navbar-brand img{
       height: 80px;
   }
-
 }
 @media (max-width: 767px) {
   .navbar-01 .navbar-brand img{
@@ -41,6 +40,8 @@
     .navbar-01 .navbar-header{
         margin-top: 1vh;
     }
+    /* Main image in popup */
+
 }
 a.disabled {
 pointer-events: none;

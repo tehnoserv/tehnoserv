@@ -71,7 +71,9 @@ $('.portfolio-popup').magnificPopup({
       arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
       tPrev: 'Назад', // title for left button
       tNext: 'Вперёд', // title for right button
+      tCounter: '%curr% из %total%'
   }
+
   // other options
 });
 
