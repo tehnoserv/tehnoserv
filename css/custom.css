@@ -28,6 +28,9 @@
 	display: flex;
 	justify-content: center;
 }
+.text-small p, a{
+    font-size: 14px;
+}
 @media (min-width: 767px) {
   .navbar-01 .navbar-brand img{
       height: 80px;
