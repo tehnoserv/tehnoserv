@@ -5896,6 +5896,8 @@ hr,
   }
   .corporex-navbar .navbar-collapse.collapse.in {
     display: block !important;
+        background: white;
+
   }
   .corporex-navbar .navbar-header .collapse,
   .corporex-navbar .navbar-toggle {
