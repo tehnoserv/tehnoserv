@@ -5904,6 +5904,7 @@ hr,
   .corporex-navbar .navbar-header .collapse,
   .corporex-navbar .navbar-toggle {
     display: inline-block;
+    background: white;
   }
   .corporex-navbar .navbar-header {
     float: none;
@@ -5922,10 +5923,11 @@ hr,
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: transparent;
+    /*background-color: transparent;*/
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background: white;
   }
   /* CORPOREX SLIDER */
   .corporex-slider .item {
