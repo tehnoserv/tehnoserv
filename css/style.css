@@ -6020,6 +6020,7 @@ hr,
   .corporex-navbar .navbar-nav {
     margin-left: 0;
     margin-right: 0;
+    background: white;
   }
   .corporex-navbar .navbar-nav > li > a {
     padding-top: 15px;
