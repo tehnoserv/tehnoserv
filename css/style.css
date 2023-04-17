@@ -5890,9 +5890,11 @@ hr,
   .corporex-navbar {
     padding-top: 24px;
     padding-bottom: 24px;
+    background: white;
   }
   .corporex-navbar .navbar-collapse.collapse {
     display: none !important;
+    background: white;
   }
   .corporex-navbar .navbar-collapse.collapse.in {
     display: block !important;
