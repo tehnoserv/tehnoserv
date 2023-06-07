@@ -31,6 +31,9 @@
 .text-small p, a{
     font-size: 14px;
 }
+.text-bold{
+    font-weight: bold;
+}
 div.footer-social a:hover{
     color: #c5c5c5 !important;
 }

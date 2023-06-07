@@ -486,6 +486,11 @@ STYLE INDEXES
 .custom-list li {
   margin-bottom: 18px;
   padding-left: 30px;
+
+}
+.custom-list li a{
+    font-size: 20px;
+
 }
 .custom-list li:before {
   font-family: FontAwesome;
@@ -667,7 +672,7 @@ h6,
 }
 p {
   font-size: 16px;
-  color: #666;
+  color: #333;
   line-height: 28px;
   margin-bottom: 18px;
 }
