@@ -60,6 +60,14 @@ pointer-events: none;
 cursor: default;
 color: #adadad!important;
 }
+.accordion-style-03 .inactive {
+    pointer-events: none;
+    cursor: default;
+}
+.accordion-style-03 .inactive .panel-title a:after{
+    display: none;
+    color: #fff!important;
+    }
      .btn-up {
       position: fixed;
       background-color: #f57c00;
