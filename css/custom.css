@@ -34,6 +34,9 @@
 .text-bold{
     font-weight: bold;
 }
+ul.lead {
+    font-size: 21px;
+}
 div.footer-social a:hover{
     color: #c5c5c5 !important;
 }
@@ -53,6 +56,14 @@ div.footer-social a:hover{
         margin-top: 1vh;
     }
     /* Main image in popup */
+    .long-title{
+        font-size: 12px;
+        line-height: 25px;
+        font-weight: bolder;
+    }
+    .long-title-li{
+        font-size: 12px;
+    }
 
 }
 a.disabled {
